@@ -7,5 +7,10 @@
     return this.listofnotes;
   };
 
+  List.prototype.makeNote = function(text){
+    note = new Note(text);
+    this.listofnotes.push(note);
+  };
+
 exports.List = List;
 })(this);

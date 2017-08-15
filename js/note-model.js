@@ -1,4 +1,5 @@
 (function(exports){
+
   function Note(content){
     this.content = content;
   };
@@ -8,4 +9,5 @@
   };
 
 exports.Note = Note;
+
 })(this);

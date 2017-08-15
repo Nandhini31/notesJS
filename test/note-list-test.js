@@ -19,3 +19,11 @@
   list.makeNote("testing");
   assert.isTrue(list.list().length === 2, description);
 })();
+
+(function listIncrementsNoteID(){
+  var description = "makenote automatically increments the note id";
+  list.makeNote("hello");
+  list.makeNote("testing");
+  list.makeNote("testing");
+  assert.isTrue(list.list()[2].id() === 3, description);
+})();

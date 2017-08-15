@@ -6,7 +6,8 @@
 
   Notelistview.prototype.renderList = function(){
     return ( "<ul><li><div>" + this.notelist.listofnotes.map(function(note){
-      return note.content;
+      return(note.content.substring(0,19));
+
     }).join("</div></li><li><div>")+ "</div></li></ul>");
   };
 

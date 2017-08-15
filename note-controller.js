@@ -1,6 +1,6 @@
 (function(exports){
   function Controller(List){
-    List.makeNote("Confusing challenge!");
+    List.makeNote("Making a note");
     this.view = new Notelistview(List);
   }
 

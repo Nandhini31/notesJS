@@ -1,0 +1,25 @@
+{
+  "name": "notes-tuesday",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nandhini31/notesJS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nandhini31/notesJS/issues"
+  },
+  "homepage": "https://github.com/Nandhini31/notesJS#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}

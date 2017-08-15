@@ -2,7 +2,7 @@
 
   function Note(content){
     this.content = content;
-  };
+  }
 
   Note.prototype.text = function(){
     return this.content;
